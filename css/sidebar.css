@@ -1,0 +1,47 @@
+div#sidebar div#for_scroll div#entries div.entry {
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #d3d3d3;
+}
+
+div#sidebar div#for_scroll div#entries div.entry:hover {
+    cursor: pointer;
+    background-color: #e6e6fa;
+}
+
+div#sidebar div#for_scroll div#entries div.entry div.closure {
+    height: 85px;
+}
+
+div#sidebar div#for_scroll div#entries div.entry div.closure img {
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    border: 2px solid #d3d3d3;
+}
+
+div#sidebar div#for_scroll div#entries div.entry div.closure p.title {
+    font-weight: bold;
+    color: #383838;
+    max-height: 75px;
+    overflow: hidden;
+}
+
+div#sidebar div#for_scroll div#entries div.entry p.info {
+    font-size: 12px;
+}
+
+div#sidebar div#for_scroll div#entries div.entry {
+}
+
+div#sidebar div#for_scroll p#load_button {
+    color: #484848;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+
+div#sidebar div#for_scroll p#load_button:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}

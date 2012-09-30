@@ -172,7 +172,7 @@
     Loader.prototype._loadInfoSuccessHandler = function (i) {
 
         if (this._ajaxObj.readyState == 4 && this._ajaxObj.status == 200) {
-            var data = eval(this._ajaxObj.responseText), info, entry = this._data[i];
+            var data = eval(this._ajaxObj.responseText), entry = this._data[i];
 
             if (!data.message) {
                 pubsubz.publish( 'imageinfoloaded',  {
@@ -194,7 +194,7 @@
      */
     Loader.prototype._constructImageInfo = function (diffTime) {
 
-        var text = "Uploaded:", weeks, days, hours, minutes, seconds;
+        var text = "Uploaded:", weeks, days, hours, minutes;
 
         minutes = Math.round((diffTime / (1000 * 60)) % 60);
         hours = Math.floor((diffTime / (1000 * 60 * 60)) % 24);

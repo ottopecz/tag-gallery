@@ -58,7 +58,7 @@
     TagGalleryModel.prototype.setEndFocus = function (newEndFocus) {
 
         this._model.endFocus = newEndFocus;
-    }
+    };
 
     TGNS.taggallerymodel = TagGalleryModel;
 }(TGNS));
